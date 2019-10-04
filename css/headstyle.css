@@ -57,7 +57,7 @@ header nav ul li a:hover{
 }
 
 
-.timeline li:nth-of-type(odd)::after{
+.timeline li a::before{
     content: ' ';
     width: 10px;
     height: 10px;
@@ -79,10 +79,12 @@ header nav ul li a:hover{
     font-size: 0.7em;
     
 }
-.timeline ul li a:hover{
+.timeline ul li a:hover {
     color: #fff;
 }
-.timeline ul li:nth-of-type(odd):hover::after{ 
+
+
+.timeline ul li a:hover::before{ 
     content: ' ';
     width: 10px;
     height: 10spx;
