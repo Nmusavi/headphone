@@ -1,0 +1,12 @@
+.timeline ul li:nth-of-type(5) a:visited {
+    color: #fff;
+}
+.timeline ul li:nth-of-type(5) a:visited::before{ 
+    content: ' ';
+    width: 10px;
+    height: 10spx;
+    position: absolute;
+    left: -6px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
