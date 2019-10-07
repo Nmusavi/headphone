@@ -57,7 +57,7 @@ header nav ul li a:hover{
 }
 
 
-.timeline li a::before{
+.timeline  li:nth-of-type(odd)::before{
     content: ' ';
     width: 10px;
     height: 10px;
@@ -67,6 +67,7 @@ header nav ul li a:hover{
     border-radius: 50%;
     border: 1px solid #867772;
 }
+
 .timeline li:nth-of-type(even){
     height: 50px;
     border-left: 1px solid #867772;
@@ -79,27 +80,21 @@ header nav ul li a:hover{
     font-size: 0.7em;
     
 }
-.timeline ul li a:hover {
+.timeline ul  li a:hover {
     color: #fff;
 }
-.timeline ul li a:hover::before{ 
+.active:visited {
+    color: #fff;
+}
+.active:visited::before{ 
     content: ' ';
-    width: 10px;
-    height: 10spx;
-    position: absolute;
+    width: 15px;
+    height: 15px;
+    position: relative;
     left: -6px;
     border-radius: 50%;
     border: 1px solid #fff;
 }
-
-
-
-
-
-
-
-
-
 
 
 
